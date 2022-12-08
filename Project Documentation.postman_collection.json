@@ -1,0 +1,508 @@
+{
+	"info": {
+		"_postman_id": "abda83fa-6a9c-4ef1-a89e-d79c42b731b4",
+		"name": "Project Documentation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23537085"
+	},
+	"item": [
+		{
+			"name": "products/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "products/",
+					"host": [
+						"products"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "products/aa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "products/aa",
+					"host": [
+						"products"
+					],
+					"path": [
+						"aa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "products/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"products_name\" : \"aaa\",\r\n    \"products_slug\" : \"aa\",\r\n    \"price\" : 1000,\r\n    \"description\" : \"seribu\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "products/",
+					"host": [
+						"products"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "products/2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "products/2",
+					"host": [
+						"products"
+					],
+					"path": [
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "products/4",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"products_name\" : \"aaaganti\",\r\n    \"products_slug\" : \"aaganti\",\r\n    \"price\" : 10001000,\r\n    \"description\" : \"seribuganti\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "products/4",
+					"host": [
+						"products"
+					],
+					"path": [
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "category/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"products_name\" : \"aaaganti\",\r\n    \"products_slug\" : \"aaganti\",\r\n    \"price\" : 10001000,\r\n    \"description\" : \"seribuganti\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "category/",
+					"host": [
+						"category"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "category/9",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"products_name\" : \"aaaganti\",\r\n    \"products_slug\" : \"aaganti\",\r\n    \"price\" : 10001000,\r\n    \"description\" : \"seribuganti\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "category/9",
+					"host": [
+						"category"
+					],
+					"path": [
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "category/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"category_name\" : \"aaa111\",\r\n    \"category_slug\" : \"aa11\",\r\n    \"assets_id\" : \"7\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "category/",
+					"host": [
+						"category"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "category/6",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"category_name\" : \"aaa111\",\r\n    \"category_slug\" : \"aa11\",\r\n    \"assets_id\" : \"7\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "category/6",
+					"host": [
+						"category"
+					],
+					"path": [
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "category/1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"category_name\" : \"aaa111ganti\",\r\n    \"category_slug\" : \"aa11ganti\",\r\n    \"assets_id\" : \"7\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "category/1",
+					"host": [
+						"category"
+					],
+					"path": [
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "assets/category",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"category_name\" : \"aaa111ganti\",\r\n    \"category_slug\" : \"aa11ganti\",\r\n    \"assets_id\" : \"7\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "assets/category",
+					"host": [
+						"assets"
+					],
+					"path": [
+						"category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "assets/category",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"aa11aa\",\r\n    \"path\" : \"a1a\",\r\n    \"size\" : \"1000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "assets/category",
+					"host": [
+						"assets"
+					],
+					"path": [
+						"category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "assets/category/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"aa11aa\",\r\n    \"path\" : \"a1a\",\r\n    \"size\" : \"1000000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "assets/category/3",
+					"host": [
+						"assets"
+					],
+					"path": [
+						"category",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "assets/category/4",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"aa11aaganti\",\r\n    \"path\" : \"a1aganti\",\r\n    \"size\" : \"10000003000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "assets/category/4",
+					"host": [
+						"assets"
+					],
+					"path": [
+						"category",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "assets/category/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"aa11aaganti\",\r\n    \"path\" : \"a1aganti\",\r\n    \"size\" : \"10000003000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "assets/category/",
+					"host": [
+						"assets"
+					],
+					"path": [
+						"category",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "assets/category/aa",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"aa11aaganti\",\r\n    \"path\" : \"a1aganti\",\r\n    \"size\" : \"10000003000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "assets/category/aa",
+					"host": [
+						"assets"
+					],
+					"path": [
+						"category",
+						"aa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "assets/category/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"assets_id\" : 3,\r\n    \"products_id\" : 4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "assets/category/",
+					"host": [
+						"assets"
+					],
+					"path": [
+						"category",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "assets/category/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"assets_id\" : 3,\r\n    \"products_id\" : 4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "assets/category/3",
+					"host": [
+						"assets"
+					],
+					"path": [
+						"category",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "assets/category/2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"assets_id\" : 4,\r\n    \"products_id\" : 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "assets/category/2",
+					"host": [
+						"assets"
+					],
+					"path": [
+						"category",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
